@@ -6,15 +6,17 @@
       <div
         v-for="({ menuName, icon }, index) in menuItems"
         :key="index"
-        class="my-6 py-1 mx-1 text-center text-xs hover:bg-slate-300 rounded-lg cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
+        class="my-6 py-1 mx-1 text-center text-xs transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110"
       >
-        <img
-          :src="icon"
-          alt="menu-icon"
-          width="16"
-          height="16"
-          class="mx-auto py-2"
-        />
+				<div class="hover:bg-slate-300 mx-1 py-2 rounded-lg cursor-pointer">
+					<img
+						:src="icon"
+						alt="menu-icon"
+						width="16"
+						height="16"
+						class="mx-auto"
+					/>
+				</div>
         <span>{{ menuName }}</span>
       </div>
     </section>

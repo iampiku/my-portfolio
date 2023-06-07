@@ -1,6 +1,6 @@
 <template>
 	<footer class="fixed inset-x-0 bottom-0 text-center border-t-2">
-		<header class="py-2 text-sm">Made with ❤️ and Nuxtjs</header>
+		<header class="py-2 text-sm">Made with ❤️ and Nuxtjs by Pradipta</header>
 		<ul class="flex justify-center">
 			<li class="hover:bg-slate-300 rounded-xl p-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
 				<a href="">
